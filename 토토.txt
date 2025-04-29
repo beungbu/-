@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>친구끼리 토토 - 풀버전</title>
+  <style>
+    body { font-family: Arial; }
+    .record { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>친구끼리 토토</h1>
+
+  <div>
+    <label>경기 결과 (승리팀 이름): </label>
+    <input type="text" id="resultTeam">
+  </div>
+
+  <div>
+    <h3>내 배팅</h3>
+    <label>내가 건 팀: </label>
+    <input type="text" id="myTeam"><br>
+    <label>건 금액: </label>
+    <input type="number" id="myBet" value="0"><br>
+    <label>배당률: </label>
+    <input type="number" id="myOdds" value="2">
+  </div>
+
+  <div>
+    <h3>친구 배팅</h3>
+    <label>친구가 건 팀: </label>
+    <input type="text" id="friendTeam"><br>
+    <label>건 금액: </label>
+    <input type="number
